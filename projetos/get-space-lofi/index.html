@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Insta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fafafa;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #e1306c;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    header input {
+      padding: 0.5rem;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .feed {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .post {
+      background-color: #fff;
+      margin-bottom: 2rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .post img {
+      width: 100%;
+      display: block;
+    }
+
+    .post-info {
+      padding: 1rem;
+    }
+
+    footer nav {
+      background-color: #fff;
+      padding: 1rem;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mini Insta</h1>
+    <input type="text" placeholder="Buscar" />
+  </header>
+
+  <main>
+    <section class="feed">
+      <article class="post">
+        <img src="https://via.placeholder.com/400x300" alt="Post de exemplo" />
+        <div class="post-info">
+          <h3>@usuario_exemplo</h3>
+          <p>Foto incrível do pôr do sol! 🌅</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Explorar</a>
+      <a href="#">Perfil</a>
+    </nav>
+  </footer>
+</body>
+</html>
